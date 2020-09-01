@@ -1,0 +1,48 @@
+.addTodoButton {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.form-group {
+  max-width: 1500px;
+}
+
+.divContainer {
+  display: inline-block;
+}
+
+form * {
+  display: inline-grid;
+  margin: 10px;
+}
+
+label {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.selectionDiv {
+  display: inline-flex;
+}
+
+span {
+  display: inline-block;
+  background-color: white;
+  border-radius: 8px;
+  color: red;
+  font-weight: 600;
+  min-width: 240px;
+  max-width: 240px;
+}
+
+@media only screen and (max-width: 345px) {
+  label,
+  input,
+  select,
+  span {
+    min-width: 140px;
+    max-width: 160px;
+  }
+}
